@@ -8,6 +8,19 @@ npm install --save-dev tachyons-font-style
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   Font Style
+
+*/
+
+.fsn     { font-style: normal; }
+.i       { font-style: italic; }
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
