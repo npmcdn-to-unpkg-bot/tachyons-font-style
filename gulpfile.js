@@ -11,8 +11,8 @@ var gulp = require('gulp'),
 
 // Task that compiles scss files down to good old css
 gulp.task('pre-process', function(){
-  gulp.src('./font-style.scss')
-      .pipe(watch('./font-style.scss', function(files) {
+  gulp.src('./font_style.scss')
+      .pipe(watch('./font_style.scss', function(files) {
         return files.pipe(sass())
           .pipe(size({gzip: false, showFiles: true, title:'un-prefixed css'}))
           .pipe(size({gzip: true, showFiles: true, title:'un-prefixed gzipped css'}))
@@ -21,7 +21,7 @@ gulp.task('pre-process', function(){
           .pipe(size({gzip: true, showFiles: true, title:'prefixed css'}))
           .pipe(gulp.dest('./'))
           .pipe(minifyCSS())
-          .pipe(rename('font-style.min.css'))
+          .pipe(rename('font_style.min.css'))
           .pipe(gulp.dest('./'))
           .pipe(size({gzip: false, showFiles: true, title:'minified css'}))
           .pipe(size({gzip: true, showFiles: true, title:'minified css'}))
