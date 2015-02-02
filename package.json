@@ -2,7 +2,7 @@
   "name": "tachyons-font-style",
   "version": "1.0.0",
   "style": "tachyons-font-style.css",
-  "homepage": "http://mrmrs.io/tachyons-font-style",
+  "homepage": "http://github.com/mrmrs/tachyons-font-style",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
