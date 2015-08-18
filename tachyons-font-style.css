@@ -1,6 +1,6 @@
 /*
 
-   Font Style
+   FONT STYLE
 
 */
 
@@ -10,4 +10,34 @@
 
 .i {
   font-style: italic;
+}
+
+@media screen and (min-width: 48em) {
+  .fsn-ns {
+    font-style: normal;
+  }
+
+  .i-ns {
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .fsn-m {
+    font-style: normal;
+  }
+
+  .i-m {
+    font-style: italic;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .fsn-l {
+    font-style: normal;
+  }
+
+  .i-l {
+    font-style: italic;
+  }
 }
