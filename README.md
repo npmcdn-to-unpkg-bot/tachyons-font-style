@@ -1,26 +1,45 @@
-# TACHYONS-FONT-STYLE
+# tachyons-font-style
+1.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-font-style
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-font-style
+```
 
 ## The Code
 ```
-
 /*
 
-   Font Style
+   FONT STYLE
 
 */
 
 .fsn     { font-style: normal; }
 .i       { font-style: italic; }
+
+@media screen and (min-width: 48em) {
+  .fsn-ns     { font-style: normal; }
+  .i-ns       { font-style: italic; }
+}
+
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .fsn-m     { font-style: normal; }
+  .i-m       { font-style: italic; }
+}
+
+@media screen and (min-width: 64em) {
+  .fsn-l     { font-style: normal; }
+  .i-l       { font-style: italic; }
+}
+
 ```
 
 ## Author

@@ -1,26 +1,22 @@
-# TACHYONS-FONT-STYLE
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-font-style
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
-/*
-
-   Font Style
-
-*/
-
-.fsn     { font-style: normal; }
-.i       { font-style: italic; }
+<%= srcCSS %>
 ```
 
 ## Author
