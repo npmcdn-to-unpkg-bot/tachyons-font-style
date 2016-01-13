@@ -1,4 +1,4 @@
-# tachyons-font-style 1.1.0
+# tachyons-font-style 2.1.0
 
 Performance based css module.
 
@@ -61,19 +61,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    FONT STYLE
 
 */
-.fsn { font-style: normal; }
 .i { font-style: italic; }
+.fsn { font-style: normal; }
 @media screen and (min-width: 48em) {
- .fsn-ns { font-style: normal; }
  .i-ns { font-style: italic; }
+ .fsn-ns { font-style: normal; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
- .fsn-m { font-style: normal; }
  .i-m { font-style: italic; }
+ .fsn-m { font-style: normal; }
 }
 @media screen and (min-width: 64em) {
- .fsn-l { font-style: normal; }
  .i-l { font-style: italic; }
+ .fsn-l { font-style: normal; }
 }
 ```
 
