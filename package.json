@@ -1,6 +1,6 @@
 {
   "name": "tachyons-font-style",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "style": "tachyons-font-style.css",
   "homepage": "http://github.com/tachyons-css/tachyons-font-style",
   "description": "Performance based css module.",
