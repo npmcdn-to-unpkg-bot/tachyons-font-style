@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^0.3.1"
+    "tachyons-cli": "^0.3.3"
   },
   "scripts": {
     "start": "tachyons src/tachyons-font-style.css > css/tachyons-font-style.css && tachyons src/tachyons-font-style.css --minify > css/tachyons-font-style.min.css && tachyons src/tachyons-font-style.css --generate-docs --package=../../package.json > readme.md"
