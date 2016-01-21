@@ -1,18 +1,17 @@
 {
   "name": "tachyons-font-style",
-  "version": "2.2.1",
-  "style": "tachyons-font-style.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-font-style",
+  "version": "2.2.2",
+  "style": "src/tachyons-font-style.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-font-style.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-font-style/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-font-style",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
