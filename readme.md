@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-162 | 8 | 8
+165 | 8 | 8
 ---|---|---
 bytes | selectors | declarations
 
@@ -62,18 +62,18 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 */
 .i { font-style: italic; }
-.fsn { font-style: normal; }
+.fs-normal { font-style: normal; }
 @media screen and (min-width: 48em) {
  .i-ns { font-style: italic; }
- .fsn-ns { font-style: normal; }
+ .fs-normal-ns { font-style: normal; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .i-m { font-style: italic; }
- .fsn-m { font-style: normal; }
+ .fs-normal-m { font-style: normal; }
 }
 @media screen and (min-width: 64em) {
  .i-l { font-style: italic; }
- .fsn-l { font-style: normal; }
+ .fs-normal-l { font-style: normal; }
 }
 ```
 
